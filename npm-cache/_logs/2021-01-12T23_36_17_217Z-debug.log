@@ -1,0 +1,36 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\User\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'sqlite324.0.2',
+1 verbose cli   '--save-exact'
+1 verbose cli ]
+2 info using npm@6.14.11
+3 info using node@v12.18.4
+4 verbose npm-session 2980da1c26d87621
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 http fetch GET 404 https://registry.npmjs.org/sqlite324.0.2 123ms
+8 http fetch GET 404 https://registry.npmjs.org/sqlite324.0.2 34ms
+9 silly fetchPackageMetaData error for sqlite324.0.2@latest 404 Not Found - GET https://registry.npmjs.org/sqlite324.0.2 - Not found
+10 timing stage:rollbackFailedOptional Completed in 0ms
+11 timing stage:runTopLevelLifecycles Completed in 677ms
+12 verbose stack Error: 404 Not Found - GET https://registry.npmjs.org/sqlite324.0.2 - Not found
+12 verbose stack     at C:\Users\User\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-fetch\check-response.js:117:15
+12 verbose stack     at processTicksAndRejections (internal/process/task_queues.js:97:5)
+13 verbose statusCode 404
+14 verbose pkgid sqlite324.0.2@latest
+15 verbose cwd C:\Users\User\OneDrive\Documentos\Aulas\node
+16 verbose Windows_NT 10.0.21286
+17 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\User\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "install" "sqlite324.0.2" "--save-exact"
+18 verbose node v12.18.4
+19 verbose npm  v6.14.11
+20 error code E404
+21 error 404 Not Found - GET https://registry.npmjs.org/sqlite324.0.2 - Not found
+22 error 404
+23 error 404 'sqlite324.0.2@latest' is not in the npm registry.
+24 error 404 You should bug the author to publish it (or use the name yourself!)
+25 error 404 Note that you can also install from a
+26 error 404 tarball, folder, http url, or git url.
+27 verbose exit [ 1, true ]
